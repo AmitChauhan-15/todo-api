@@ -42,7 +42,7 @@ A simple and secure **REST API** built with **Node.js**, **Express.js**, and **M
 
 3. **Set up environment variables**
 
-   - Create a config.env file in the root directory and add the following:
+   - Create a .env file in the root directory and add the following:
 
    ```bash
     PORT=5000

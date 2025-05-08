@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import app from "./app.js";
 
-dotenv.config({ path: `${process.cwd()}/config.env` });
+dotenv.config({ path: `${process.cwd()}/.env` });
 
 const connectionString = process.env.DB_CONNECTION.replace("<PASSWORD>", process.env.DB_PASSWORD);
 
